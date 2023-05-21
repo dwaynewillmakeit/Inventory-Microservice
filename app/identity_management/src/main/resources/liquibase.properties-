@@ -1,0 +1,11 @@
+# liquibase.properties
+
+# Database configuration
+driver=org.postgresql.Driver
+url=jdbc:postgresql://localhost:5432/inventory_management
+username=postgres
+password=postgres
+
+# Change log file
+changeLogFile=changelog.sql
+changeLogPath =  src/main/resources/db
